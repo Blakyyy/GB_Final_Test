@@ -1,4 +1,4 @@
-xam
+Exam
 ===
 
 Explanation of the Solution
