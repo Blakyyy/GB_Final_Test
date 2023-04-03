@@ -1,18 +1,23 @@
-# Контрольная работа
-## Объяснение решения задачи 
+xam
+===
 
-1. Изначально у нас есть заданный массив состоящий из 7 элементов
-2. Дополнительно к этому у нас есть еще несколько переменных 
-    
-    **"size"** = размер массива  
-    
-    **"maxCharactersAllowed"** = максимальное каличество символов которые могут быть в одном элементе массива, для того чтобы данный элемент принадлежал новому массиву который будет создан позже
-3. Я создал метод **"howLongMustBeNewArray"** с помощью его и цикла **"for"** я буду искать длинну нового массива в котором будут находиться элементы у которых символы меньше или равны трем
-4. Этот метод заключается в том что мы проходим через каждый элемент первичного массива и если какой-то из элементов имеет 3 или меньше символа, то для этого я создал внутри метода переменную **"count"** в которую мы будем прибавлять +1 каждый раз когда мы встречаемся с одим из таких элементов
-5. Резулютат данного метода мы будем использовать при создании нового массива  **"newArray"**
-6. Для того чтобы заполнить новый массив я создал новый метод  **"FillArray"** также я создал переменную **"j"** которая отвечает за индекс нового массива(newArray)
-7. Мы также проходимся по каждому элементу из первичного массива и те элементы у которых 3 или меньше символа мы присваиваем новому массиву используя цикл **"for"** и индекс **"i"** и **"j"** уже заранее зная размер нового массива благодаря методу **"howLongMustBeNewArray"**
+Explanation of the Solution
+---------------------------
 
-P.S
+1.  Initially, we have a given array consisting of 7 elements.
 
-Во время решения задачи были созданы переменные **"sizeOfNewArray"** и **"NewArray1"** которые служыли вызовом методов упомянутых ранее.
+2.  In addition to this, we have several variables:
+
+    -   **"size"** = size of the array
+    -   **"maxCharactersAllowed"** = the maximum number of characters that can be in one element of the array, in order for this element to belong to the new array that will be created later.
+3.  I created the **"howLongMustBeNewArray"** method, with its help and the **"for"** loop, I will search for the length of the new array in which the elements have symbols less than or equal to three.
+1.  This method consists of passing through each element of the primary array and if any of the elements have 3 or fewer symbols, then for this, I created a variable **"count"** inside the method, which we will add +1 each time we encounter one of such elements.
+
+2.  We will use the result of this method when creating the new array **"newArray"**.
+
+3.  In order to fill the new array, I created a new method **"FillArray"** and I also created a variable **"j"**, which corresponds to the index of the new array (newArray).
+
+4.  We also go through each element of the primary array and assign the elements with 3 or fewer symbols to the new array using the **"for"** loop and the **"i"** and **"j"** indices already knowing the size of the new array thanks to the **"howLongMustBeNewArray"** method.
+P.S.
+
+During the solution of the problem, the variables **"sizeOfNewArray"** and **"NewArray1"** were created, which served as a call to the aforementioned methods.
